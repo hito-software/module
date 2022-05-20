@@ -1,0 +1,21 @@
+{
+    "name": "hito-software/module",
+    "description": ":package_description",
+    "keywords": [],
+    "homepage": "https://github.com/hito-software/module",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "hito-software/composer-installer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hito\\Module\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
