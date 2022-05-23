@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "hito-software/composer-installer": "dev-master"
+        "hito-software/composer-installer": "*"
     },
     "autoload": {
         "psr-4": {
